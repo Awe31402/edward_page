@@ -19,9 +19,12 @@ metaAlignment: center
 {{< toc >}}
 
 # 從羅德里格旋轉公式開始
-向量 $\vec x'$  為向量 $\vec x$  以單位向量 $\vec n$ 為旋轉軸旋轉角度 $\psi$ 所得到的向量
-
+---
+向量 $\vec x'$  為向量 $\vec x$  以單位向量 $\vec n$ 為旋轉軸旋轉角度 $\psi$ 所得到的向量<br>
 如圖可得
+
+<p></p>
+{{< image classes="fancybox fig-33" align="right" src="/images/rodrigue.png" thumbnail="/images/rodrigue.png"  title="rodrigue's rotation" >}}
 
 
 <div>
@@ -37,9 +40,6 @@ $$
 $$
 </div>
 
-<image classes="fancybox fig-100" width=150 src="/images/rodrigue.png" thumbnail="/images/rodrigue.png"  title="rodrigue's rotation">
-
-
 最後可將 $\vec x'$  表示為
 
 <div>
@@ -53,4 +53,5 @@ $$
 </div>
 
 # 四元數以及四元數的基本運算
+---
 ## 四元數
