@@ -352,7 +352,8 @@ enableEmoji = true
   [params.comment]
     [params.comment.disqus]
       enable = true
-      shortname = "hugo-tranquilpeak-theme"
+      language = "en"
+      shortname = "tranquilpeak"
     [params.comment.gitalk]
       enable = false
       # clientId =
