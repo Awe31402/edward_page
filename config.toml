@@ -21,6 +21,7 @@ disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-123-45"
 paginate = 7
 canonifyurls = true
+enableEmoji = true
 
 [permalinks]
   posts = "/:year/:month/:slug/"
@@ -34,6 +35,8 @@ canonifyurls = true
 # Markup
 # ------
 [markup]
+  [markup.goldmark.renderer]
+    unsafe = true
   # Set startLevel = 1 to support # title (<h1>title</h1>) otherwise table of content is blank/empty
   [markup.tableOfContents]
     endLevel = 3
@@ -120,7 +123,7 @@ canonifyurls = true
   # Description
   # -----------
   description = "Hugo tranquilpeak theme demo"
-
+  math = true
   # ------------------
   # Syntax highlighter
   # ------------------
