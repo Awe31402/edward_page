@@ -45,14 +45,14 @@ canonifyurls = true
 # ------
 [author]
   name = "Edward Wang"
-  bio = "Super bio with markdown support **COOL**"
-  job = "Your job title"
+  bio = "Hi I'm Edward"
+  job = "Software Engineer"
   location = "Taiwan"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-  gravatarEmail = "awe31402@gmail.com"
+  # gravatarEmail = "awe31402@gmail.com"
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-  picture = "notion://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff07f3f17-782c-4a35-934d-43a36c540cab%2F1574847963573.jpg?table=block&id=3c56159a-a75e-494d-af63-41c9db1d94b7&spaceId=caa989a3-a3fe-4d37-905d-5f34361a57b0&width=480&userId=195e544e-a5dc-4f81-8973-8290184ba424&cache=v2"
+  picture = "images/profile.jpg"
   # Your Twitter username without the @. E.g : thibaudlepretre
   # twitter = "thibaudlepretre"
   # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
