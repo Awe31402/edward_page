@@ -203,7 +203,7 @@ $$
 </div>
 
 {{< alert info >}}
-證明: <br>
+證明:<br>
 <div>
 $$
 \begin{align*}
