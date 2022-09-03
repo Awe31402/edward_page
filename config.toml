@@ -37,6 +37,7 @@ enableEmoji = true
 [markup]
   [markup.goldmark.renderer]
     unsafe = true
+
   # Set startLevel = 1 to support # title (<h1>title</h1>) otherwise table of content is blank/empty
   [markup.tableOfContents]
     endLevel = 3
@@ -92,8 +93,8 @@ enableEmoji = true
   weight = 5
   identifier = "about"
   name = "About"
-  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-question\" aria-hidden=\"true\"></i>"
-  url = "/#about"
+  pre = "<i class=\"sidebar-button-icon fas fa-lg fa-user\" aria-hidden=\"true\"></i>"
+  url = "/about"
 
 [[menu.links]]
   weight = 1
@@ -380,7 +381,7 @@ enableEmoji = true
   [params.header.rightLink]
     class = ""
     icon = ""
-    url = "/#about"
+    url = "/about"
 
   # --------------------
   # Footer configuration
