@@ -25,6 +25,9 @@ Estimate the state $x$ of a system given observations $z$ and controls $u$ :
 {{< image classes="fancybox fig-50" src="/images/bayes_intro.png" thumbnail="/images/bayes_intro.png"  title="Bayes Filter" >}}
 <br>
 <br>
+<br>
+<br>
+<br>
 
 <div style="width:1000px" align="left">
 $$
