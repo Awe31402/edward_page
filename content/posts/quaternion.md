@@ -1,5 +1,6 @@
 ---
-title: "Quaternion"
+title: "四元數的基本運算"
+slug: "quaternion"
 date: 2022-09-02
 categories:
 - mathematics
