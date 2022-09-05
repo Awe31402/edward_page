@@ -352,7 +352,7 @@ enableEmoji = true
   # --------------
   [params.comment]
     [params.comment.disqus]
-      enable = enable
+      enable = true
       language = "en"
       shortname = "tranquilpeak"
     [params.comment.gitalk]
