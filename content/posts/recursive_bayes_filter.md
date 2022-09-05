@@ -11,7 +11,7 @@ tags:
 keywords:
 - Recursive Bayes Filter
 autoThumbnailImage: false
-thumbnailImagePosition: "top"
+thumbnailImagePosition: "left"
 thumbnailImage: //d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city-750.jpg
 coverImage: //d1u9biwaxjngwg.cloudfront.net/cover-image-showcase/city.jpg
 metaAlignment: center
@@ -124,8 +124,10 @@ $$
 
 # Motion Model and Observation Model
 ---
-The term $p(x_t|x_{t-1},u_{t})$ is motion model
-The term $p(z_t|x_{t})$ is observation or sensor model
+<p>
+The term $p(x_t|x_{t-1},u_{t})$ is {{< hl-text red >}}motion model{{< /hl-text >}}<br>
+The term $p(z_t|x_{t})$ is {{< hl-text blue >}}observation or sensor model{{< /hl-text >}}
+</p>
 
 # Assignment
 ---
