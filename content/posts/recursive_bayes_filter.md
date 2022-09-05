@@ -174,10 +174,12 @@ belief = recursive_bayes_filter(actions, observation,
                                 belief, world)
 plot_belief(belief)
 ```
+<p></p>
+localization with odomerty only:
+{{< youtube S_KLcy-Ee7g >}}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/S_KLcy-Ee7g" title="Odometry Only" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eREzILR41xI" title="Localization with Bayes Filter" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+localization with recursive bayes filter:
+{{< youtube eREzILR41xI >}}
 
 ```python
 #!/usr/bin/env python3
@@ -263,7 +265,7 @@ def recursive_bayes_filter(actions, observations,
 
 # Video Lecture
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0lKHFJpaZvE" title="Recursive Bayes Filter" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube 0lKHFJpaZvE >}}
 
 # Reference
 ---
