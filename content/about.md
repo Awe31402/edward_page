@@ -70,8 +70,7 @@ metaAlignment: center
 - **[Cyclictest result for Xenomai3, PREEMP_RT patched and origin Linux](https://hackmd.io/Snqxtl3VTLqafbzidl7LHQ)**
 
 ---
-
-## 🪛 Side Projects
+## 📜 Side Projects
 
 - **[StockRebalance](https://github.com/Awe31402/StockRebalance)**
     
