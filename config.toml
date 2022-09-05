@@ -356,7 +356,7 @@ enableEmoji = true
       language = "en"
       shortname = "tranquilpeak"
     [params.comment.gitalk]
-      enable = true
+      enable = false
       # clientId =
       # clientSecret =
       # owner =
