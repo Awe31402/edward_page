@@ -352,11 +352,11 @@ enableEmoji = true
   # --------------
   [params.comment]
     [params.comment.disqus]
-      enable = true
+      enable = false
       language = "en"
       shortname = "tranquilpeak"
     [params.comment.gitalk]
-      enable = false
+      enable = true
       # clientId =
       # clientSecret =
       # owner =
