@@ -204,7 +204,7 @@ $$
 
 we can find that $L_t(x_t)$  is a quadratic function only related to variable $x_t$ 
 
-<div>
+<div style="width:1100px" align="left">
 $$
 \begin{align} 
 \begin{split}
