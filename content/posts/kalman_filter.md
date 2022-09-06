@@ -1,7 +1,7 @@
 ---
 title: "Derivation of Kalman Filter"
 slug: "KalmanFilter"
-date: 2022-09-03
+date: 2022-09-06
 categories:
 - mathematics
 - SLAM
