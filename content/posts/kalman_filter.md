@@ -21,9 +21,9 @@ metaAlignment: center
 
 {{< image classes="fancybox fig-100" src="/images/kf_algo.png" thumbnail="/images/kf_algo.png"  title="Kalman Filter" >}}
 
-## Start from Recursive Bayes Filter
+# Start from Recursive Bayes Filter
 ---
-### Basic Assumptions
+## Basic Assumptions
 
 1. Observation and state transition matrices are linear:
     <div>
@@ -46,7 +46,7 @@ $$
 </div>
 
 
-### Time Update (Prediction)
+## Time Update (Prediction)
 
 Noted that:
 
@@ -285,7 +285,7 @@ $$
 </div>
 {{< /alert >}}
 
-### Measurement Update (Correction)
+## Measurement Update (Correction)
 
 Noted that:
 
@@ -378,19 +378,18 @@ $$
 </div>
 {{< /alert >}}
 
-## Video Lecture
+# Video Lecture
 ---
 
 {{< youtube E-6paM_Iwfc >}}
 
-## Reference
+# Reference
 ---
 
 - [Probabilistic Robotics](https://www.amazon.com/Probabilistic-Robotics-INTELLIGENT-ROBOTICS-AUTONOMOUS/dp/0262201623) , Ch3
 - [Kalman and Bayesian Filters in Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)
     
-
-## Example in Python
+# Example in Python
 ---
 
 ```python
