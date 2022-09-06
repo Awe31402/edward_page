@@ -351,7 +351,7 @@ K_t &= \Sigma_t C_t^TQ_t^{-1} \\
 $$
 </div>
 
-we can get
+from $\frac{\partial^2 J_t}{\partial^2 x_t} = C_t^TQ_t^{-1}C_t +\overline \Sigma_t^{-1} = \Sigma_t^{-1}$ , we can get
 
 <div>
 $$
@@ -468,5 +468,5 @@ plt.show()
 ```
 
 {{< image classes="fancybox fig-100" src="/images/kf_example.png" thumbnail="/images/kf_example.png"  title="Kalman Filter Example" >}}
-
+{{< hl-text blue >}}
 {{< disqus >}}
