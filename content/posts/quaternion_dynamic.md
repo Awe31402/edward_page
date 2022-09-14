@@ -178,3 +178,4 @@ Omega in vec form (x, y, z)
 0.5236
        0
 ```
+{{< disqus >}}
