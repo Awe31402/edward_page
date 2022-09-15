@@ -840,7 +840,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
         post = ""
         name = ""
-        url = "https://github.com/Aew31402"
+        url = "https://github.com/Awe31402"
         title = "GitHub"
     [languages.en.params]
       [languages.en.params.search]
@@ -869,11 +869,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           disclaimer = ""
       [languages.en.params.social]
         GitHub = "Awe31402"
-        Twitter = "xxxx"
         #Instagram = "xxxx"
         Facebook = "awe.wang.16"
         #Telegram = "xxxx"
         #Youtubelegacy = "xxxx"
         #Phone = "555-555-555"
         Email = "awe31402@gmail.com"
+        Linkedin = "edward-wang-a1530bb4"
+        Gitlab = "awe31402"
+
         RSS = true
