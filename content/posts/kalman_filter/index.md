@@ -134,9 +134,7 @@ Now we get
 
 <div>
 $$
-\begin {align}
 L_t(x_{t-1}, x_t) = \frac{1}{2}(x_{t-1}-\Psi_t[A^T_t R_t^{-1}(x_t - B_tu_t) + \Sigma_{t-1}^{-1} \mu_{t-1}])^T\Psi_t^{-1}(x_{t-1}-\Psi_t[A^T_t R_t^{-1}(x_t - B_tu_t) + \Sigma_{t-1}^{-1} \mu_{t-1}])
-\end {align}
 $$
 </div>
 
@@ -200,6 +198,10 @@ L_t(x_t)
 \end{align*} 
 $$
 </div>
+
+{{< admonition tip >}}
+Seperate all items about $x_{t-1}$ from others
+{{< /admonition >}}
 
 we can find that $L_t(x_t)$  is a quadratic function only related to variable $x_t$ 
 

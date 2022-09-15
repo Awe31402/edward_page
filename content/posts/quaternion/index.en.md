@@ -20,12 +20,12 @@ metaAlignment: center
 ## 從羅德里格旋轉公式開始
 ---
 向量 $\vec x'$  為向量 $\vec x$  以單位向量 $\vec n$ 為旋轉軸旋轉角度 $\psi$ 所得到的向量<br>
-如圖可得
 
 <p></p>
-{{< image classes="fancybox fig-33" align="left" src="rodrigue.png" thumbnail="rodrigue.png"  title="rodrigue's rotation" >}}
+{{< image width="100" height="100" src="rodrigue.png"  title="rodrigue's rotation" >}}
 
 
+如圖可得
 <div>
 $$
 \begin{align}
@@ -51,7 +51,7 @@ $$
 $$
 </div>
 
-{{< admonition quote >}}
+{{< admonition note >}}
 羅德里格旋轉公式:<br>
 $\vec x' = (1-\cos\psi)(\vec{n} \cdot \vec{x})\vec{n} + \cos \psi \vec x + \sin \psi ( \vec n \times  \vec x)$
 {{< /admonition >}}
@@ -113,7 +113,7 @@ $$
 $$
 </div>
 
-{{< admonition quote >}}
+{{< admonition note >}}
 單位四元數:<br>
 若四元數 $q$ 滿足  $|q|=1$ ，則 $q$ 為單位四元數
 {{< /admonition >}}
@@ -157,7 +157,7 @@ pq =& (p_0 + p_1i + p_2j + p_3k)(q_0 + q_1i + q_2j + q_3k)\\
 $$
 </div>
 
-{{< admonition quote >}}
+{{< admonition note >}}
 證明:<br> 
 <div>
 $$
@@ -202,7 +202,7 @@ L_q(v) &= qvq^{-1} = qvq^* \\
 $$
 </div>
 
-{{< admonition quote >}}
+{{< admonition note >}}
 證明:<br>
 <div>
 $$
