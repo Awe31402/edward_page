@@ -1,5 +1,4 @@
 ---
-title: "About me"
 slug: "about"
 comments: false
 showMeta: false
@@ -25,7 +24,7 @@ metaAlignment: center
 <br>
 <br>
 
-## **👩🏻‍💻** Work experience
+## 💻 Work experience
 
 **Garmin - Software Engineer in Testing**
 
