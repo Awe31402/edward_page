@@ -67,7 +67,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
     post = ""
     name = "Posts"
-    url = "/posts/"
+    url = "posts/"
     # title will be shown when you hover on this menu link
     # 当您将鼠标悬停在此菜单链接上时, 将显示标题
     title = ""
@@ -77,7 +77,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     pre = ""
     post = ""
     name = "Tags"
-    url = "/tags/"
+    url = "tags/"
     title = ""
   [[menu.main]]
     weight = 3
@@ -85,7 +85,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     pre = ""
     post = ""
     name = "Categories"
-    url = "/categories/"
+    url = "categories/"
     title = ""
 
 [params]
@@ -800,7 +800,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = ""
         post = ""
         name = "Posts"
-        url = "/posts/"
+        url = "posts/"
         title = ""
       [[languages.en.menu.main]]
         weight = 2
@@ -808,7 +808,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = ""
         post = ""
         name = "Tags"
-        url = "/tags/"
+        url = "tags/"
         title = ""
       [[languages.en.menu.main]]
         weight = 3
@@ -816,7 +816,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = ""
         post = ""
         name = "Categories"
-        url = "/categories/"
+        url = "categories/"
         title = ""
       [[languages.en.menu.main]]
         weight = 4
@@ -824,7 +824,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = ""
         post = ""
         name = "Docs"
-        url = "/categories/documentation/"
+        url = "categories/documentation/"
         title = ""
       [[languages.en.menu.main]]
         weight = 5
@@ -832,7 +832,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = ""
         post = ""
         name = "About"
-        url = "/about/"
+        url = "about/"
         title = ""
       [[languages.en.menu.main]]
         weight = 6
@@ -894,7 +894,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = ""
         post = ""
         name = "所有文章"
-        url = "/posts/"
+        url = "posts/"
         title = ""
       [[languages.zh-tw.menu.main]]
         weight = 2
@@ -902,7 +902,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = ""
         post = ""
         name = "標籤"
-        url = "/tags/"
+        url = "tags/"
         title = ""
       [[languages.zh-tw.menu.main]]
         weight = 3
@@ -910,14 +910,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = ""
         post = ""
         name = "分類"
-        url = "/categories/"
+        url = "categories/"
         title = ""
       [[languages.zh-tw.menu.main]]
         weight = 4
         identifier = "documentation"
         pre = ""
         name = "檔案"
-        url = "/categories/documentation/"
+        url = "categories/documentation/"
         title = ""
       [[languages.zh-tw.menu.main]]
         weight = 5
@@ -925,7 +925,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         pre = ""
         post = ""
         name = "關於"
-        url = "/about/"
+        url = "about/"
         title = ""
       [[languages.zh-tw.menu.main]]
         weight = 6
