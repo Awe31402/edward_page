@@ -870,104 +870,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       [languages.en.params.social]
         GitHub = "Awe31402"
         Twitter = "xxxx"
-        Instagram = "xxxx"
+        #Instagram = "xxxx"
         Facebook = "awe.wang.16"
         #Telegram = "xxxx"
         #Youtubelegacy = "xxxx"
         #Phone = "555-555-555"
         Email = "awe31402@gmail.com"
-        RSS = true
-        [languages.en.params.social.Mastodon]
-          id = "@xxxx"
-          prefix = "https://mastodon.technology/"
-
-  [languages.zh-tw]
-    weight = 2
-    languageCode = "zh-tw"
-    languageName = "中文"
-    hasCJKLanguage = true
-    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    [languages.zh-tw.menu]
-      [[languages.zh-tw.menu.main]]
-        weight = 1
-        identifier = "posts"
-        pre = ""
-        post = ""
-        name = "所有文章"
-        url = "posts/"
-        title = ""
-      [[languages.zh-tw.menu.main]]
-        weight = 2
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "標籤"
-        url = "tags/"
-        title = ""
-      [[languages.zh-tw.menu.main]]
-        weight = 3
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "分類"
-        url = "categories/"
-        title = ""
-      [[languages.zh-tw.menu.main]]
-        weight = 4
-        identifier = "documentation"
-        pre = ""
-        name = "檔案"
-        url = "categories/documentation/"
-        title = ""
-      [[languages.zh-tw.menu.main]]
-        weight = 5
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "關於"
-        url = "about/"
-        title = ""
-      [[languages.zh-tw.menu.main]]
-        weight = 6
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/dillonzq/LoveIt"
-        title = "GitHub"
-    [languages.zh-tw.params]
-      [languages.zh-tw.params.search]
-        enable = true
-        type = "algolia"
-        contentLength = 4000
-        placeholder = ""
-        maxResultLength = 10
-        snippetLength = 50
-        highlightTag = "em"
-        absoluteURL = false
-        [languages.zh-tw.params.search.algolia]
-          index = "index.zh-tw"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
-      [languages.zh-tw.params.home]
-        rss = 10
-        [languages.zh-tw.params.home.profile]
-          enable = true
-          gravatarEmail = ""
-          avatarURL = "/images/e-tank.jpg"
-          title = ""
-          subtitle = "哀得滑的部落格"
-          typeit = true
-          social = true
-          disclaimer = ""
-      [languages.zh-tw.params.social]
-        GitHub = "xxxx"
-        Weibo = "xxxx"
-        Steam = "xxxx"
-        Zhihu = "xxxx"
-        Douban = "xxxx"
-        Devto = "xxxx"
-        Bilibili = "xxxx"
-        Email = "xxxx@xxxx.com"
-        Phone = "555-555-555"
         RSS = true
