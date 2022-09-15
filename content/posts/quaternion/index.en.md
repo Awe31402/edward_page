@@ -23,7 +23,7 @@ metaAlignment: center
 如圖可得
 
 <p></p>
-{{< image classes="fancybox fig-33" align="left" src="/images/rodrigue.png" thumbnail="/images/rodrigue.png"  title="rodrigue's rotation" >}}
+{{< image classes="fancybox fig-33" align="left" src="rodrigue.png" thumbnail="rodrigue.png"  title="rodrigue's rotation" >}}
 
 
 <div>
@@ -187,7 +187,7 @@ $$
 
 其中 $v = (0, \vec v)$ 為一個實數部為 0 的單純四元數，映射關係如圖<br>
 <p></p>
-{{< image classes="fancybox fig-100" src="/images/vec_to_quaternion.png" thumbnail="/images/vec_to_quaternion.png"  title="mapping vector to quaternion" >}}
+{{< image classes="fancybox fig-100" src="vec_to_quaternion.png" thumbnail="vec_to_quaternion.png"  title="mapping vector to quaternion" >}}
 並且將一向量$\vec v$ 進行旋轉變換可以表示為函數
 
 <div>
