@@ -6,7 +6,7 @@ showActions: false
 metaAlignment: center
 ---
 ## ☎️ Contact information
-<img src="/images/profile.jpg" align="left" width="200" height="200" hspace="30">
+<img src="profile.jpg" align="left" width="200" height="200" hspace="30">
 <p>
 <i class="sidebar-button-icon fab fa-lg fa-google" aria-hidden="true"></i>
 <a href="mailto:awe31402@gmail.com"> G-Mail</a><br>
