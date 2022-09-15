@@ -18,7 +18,7 @@ metaAlignment: center
 ---
 
 
-{{< image classes="fancybox fig-50" src="/images/kf_algo.png" thumbnail="/images/kf_algo.png"  title="Kalman Filter" >}}
+{{< image classes="fancybox fig-50" src="kf_algo.png" thumbnail="kf_algo.png"  title="Kalman Filter" >}}
 
 ## Start from Recursive Bayes Filter
 ---
@@ -465,6 +465,6 @@ plt.grid()
 plt.show()
 ```
 
-{{< image classes="fancybox fig-100" src="/images/kf_example.png" thumbnail="/images/kf_example.png"  title="Kalman Filter Example" >}}
+{{< image classes="fancybox fig-100" src="kf_example.png" thumbnail="kf_example.png"  title="Kalman Filter Example" >}}
 {{< hl-text blue >}}
 {{< disqus >}}
