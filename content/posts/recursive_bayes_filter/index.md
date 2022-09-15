@@ -21,7 +21,7 @@ metaAlignment: center
 ## Recursive Bayes Filter
 ---
 Estimate the state $x$ of a system given observations $z$ and controls $u$ :
-{{< image classes="fancybox fig-100" src="/images/bayes_intro.png" thumbnail="/images/bayes_intro.png"  title="Bayes Filter" >}}
+{{< image classes="fancybox fig-100" src="bayes_intro.png" thumbnail="bayes_intro.png"  title="Bayes Filter" >}}
 
 <div style="width:1000px" align="left">
 $$
@@ -127,7 +127,7 @@ The term $p(z_t|x_{t})$ is {{< hl-text blue >}}observation or sensor model{{< /h
 ---
 Consider a robot that navigates in a **discrete 1D grid world** composed by 15 cells as the one illustrated below.
 
-{{< image classes="fancybox fig-100" src="/images/bayes_world_map.png" thumbnail="/images/bayes_world_map.png"  title="World Map" >}}
+{{< image classes="fancybox fig-100" src="bayes_world_map.png" thumbnail="bayes_world_map.png"  title="World Map" >}}
 
 The floor can be either black **(0)** or white **(1)**
 
