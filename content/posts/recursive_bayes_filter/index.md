@@ -22,7 +22,7 @@ metaAlignment: center
 Estimate the state $x$ of a system given observations $z$ and controls $u$ :
 {{< image classes="fancybox fig-100" src="bayes_intro.png" thumbnail="bayes_intro.png"  title="Bayes Filter" >}}
 
-<div style="width:1000px;margin-left:-15%">
+<div style="width:1000px">
 $$
 \begin{align*}
 bel(x_t) &= p(x_t|z_{1:t}, u_{1:t})= \frac{p(z_t|x_t,z_{1:t-1},u_{1:t})p(x_t|z_{1:t-1},u_{1:t})}{p(z_t|z_{1:t-1},u_{1:t})}&\text {(Bayes' rule)}
