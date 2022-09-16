@@ -17,9 +17,11 @@ resources:
 metaAlignment: left
 ---
 
-<div style="width:1100px;margin-left:-40%">
-
+<div style="width:750px;margin-left:-20%">
 {{< image classes="fancybox fig-50" src="kf_algo.png" thumbnail="kf_algo.png"  title="Kalman Filter" >}}
+</div>
+
+<div style="width:1100px;margin-left:-38%">
 
 ## Start from Recursive Bayes Filter
 ---
