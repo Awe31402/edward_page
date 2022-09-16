@@ -14,14 +14,16 @@ autoThumbnailImage: false
 resources:
 - name: "featured-image"
   src: "featured-image.jpg"
-metaAlignment: center
+metaAlignment: left
 ---
 
+<div style="width:1100px;margin-left:-40%">
 
 {{< image classes="fancybox fig-50" src="kf_algo.png" thumbnail="kf_algo.png"  title="Kalman Filter" >}}
 
 ## Start from Recursive Bayes Filter
 ---
+
 ### Basic Assumptions
 
 1. Observation and state transition matrices are linear:
@@ -54,7 +56,7 @@ Noted that:
 
 The prediction step can be represented as:
 
-<div style="width:1100px;" align="left">
+<div>
 $$
 \begin {align}
 \overline {bel}(x_t) &= \int \underbrace {p(x_t|x_{t-1}, u_t)}_{\sim \mathcal N(x_t;A_tx_{t-1}+B_tu_t, R_t)} \text{  }\underbrace{bel(x_{t-1}) }_{\sim \mathcal N(x_{t-1};\mu_{t-1}, \Sigma_{t-1})}dx_{t-1}\\
@@ -168,7 +170,7 @@ $$
 
 according to {{< hl-text green >}}$L_t = L_t(x_{t-1}, x_t) + L_t(x_t)${{< /hl-text >}}in previous, we can get
 
-<div style="width:1100px" align="left">
+<div>
 $$
 \begin {align*} 
 L_t(x_t) =& L_t - L_t(x_{t-1}, x_t)\\ 
@@ -179,7 +181,7 @@ $$
 
 separate terms including  $x_{t-1}$ from others
 
-<div style="width:1100px" align="left">
+<div>
 $$
 \def\doubleunderline#1{\underline{\underline{#1}}}
 \begin{align*} 
@@ -205,7 +207,7 @@ Seperate all items about $x_{t-1}$ from others
 
 we can find that $L_t(x_t)$  is a quadratic function only related to variable $x_t$ 
 
-<div style="width:1100px" align="left">
+<div>
 $$
 \begin{align} 
 \begin{split}
@@ -219,7 +221,7 @@ $$
 
 Then the mean and covariance of this distribution can be obtained by computing first and second order derivative of $L_t(x_t)$  
 
-<div style="width:1100px" align="left">
+<div>
 $$
 \begin{align}
 \frac {\partial L_t(x_t)}{\partial x_t} &= R_t^{-1}(x_t - B_tu_t)-R_t^{-1}A_t(A_t^TR_t^{-1}A_t + \Sigma_{t-1}^{-1})^{-1}[A^T_t R_t^{-1}(x_t - B_tu_t) + \Sigma_{t-1}^{-1} \mu_{t-1}]\\
@@ -230,7 +232,7 @@ $$
 
 Then apply the inversion lemma
 
-<div style="width:1100px" align="left">
+<div>
 $$
 \begin{align}
 R_t^{-1}-R_t^{-1}A_t(A_t^TR_t^{-1}A_t + \Sigma_{t-1}^{-1})^{-1}A^T_t R_t^{-1} = (R_t+A_t\Sigma_{t-1}A_t^T)^{-1}
@@ -240,7 +242,7 @@ $$
 
 So that
 
-<div style="width:1100px" align="left">
+<div>
 $$
 \begin{align*}
 \frac {\partial L_t(x_t)}{\partial x_t} 
@@ -468,5 +470,5 @@ plt.show()
 ```
 
 {{< image classes="fancybox fig-100" src="kf_example.png" thumbnail="kf_example.png"  title="Kalman Filter Example" >}}
-{{< hl-text blue >}}
+</div>
 {{< disqus >}}
