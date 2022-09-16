@@ -17,11 +17,8 @@ resources:
 metaAlignment: left
 ---
 
-<div style="width:750px;margin-left:-20%">
 {{< image classes="fancybox fig-50" src="kf_algo.png" thumbnail="kf_algo.png"  title="Kalman Filter" >}}
-</div>
 
-<div style="width:1100px;margin-left:-38%">
 
 ## Start from Recursive Bayes Filter
 ---
@@ -58,7 +55,7 @@ Noted that:
 
 The prediction step can be represented as:
 
-<div>
+<div style="width:1100px;margin-left:-10%">
 $$
 \begin {align}
 \overline {bel}(x_t) &= \int \underbrace {p(x_t|x_{t-1}, u_t)}_{\sim \mathcal N(x_t;A_tx_{t-1}+B_tu_t, R_t)} \text{  }\underbrace{bel(x_{t-1}) }_{\sim \mathcal N(x_{t-1};\mu_{t-1}, \Sigma_{t-1})}dx_{t-1}\\
@@ -70,7 +67,7 @@ $$
 
 where
 
-<div>
+<div style="width:1100px;margin-left:-10%">
 $$
 \begin{align}
 L_t = \frac{1}{2} (x_t - A_t x_{t-1} - B_t u_t)^TR_t^{-1}(x_t - A_t x_{t-1} - B_t u_t) + \frac{1}{2} (x_{t-1} - \mu _{t-1})^T\Sigma_{t-1}^{-1}(x_{t-1} - \mu _{t-1})
@@ -136,7 +133,7 @@ $$
 
 Now we get
 
-<div>
+<div style="width:1100px;margin-left:-10%">
 $$
 L_t(x_{t-1}, x_t) = \frac{1}{2}(x_{t-1}-\Psi_t[A^T_t R_t^{-1}(x_t - B_tu_t) + \Sigma_{t-1}^{-1} \mu_{t-1}])^T\Psi_t^{-1}(x_{t-1}-\Psi_t[A^T_t R_t^{-1}(x_t - B_tu_t) + \Sigma_{t-1}^{-1} \mu_{t-1}])
 $$
@@ -209,7 +206,7 @@ Seperate all items about $x_{t-1}$ from others
 
 we can find that $L_t(x_t)$  is a quadratic function only related to variable $x_t$ 
 
-<div>
+<div style="width:1100px;margin-left:-10%">
 $$
 \begin{align} 
 \begin{split}
@@ -223,7 +220,7 @@ $$
 
 Then the mean and covariance of this distribution can be obtained by computing first and second order derivative of $L_t(x_t)$  
 
-<div>
+<div style="width:1100px;margin-left:-10%">
 $$
 \begin{align}
 \frac {\partial L_t(x_t)}{\partial x_t} &= R_t^{-1}(x_t - B_tu_t)-R_t^{-1}A_t(A_t^TR_t^{-1}A_t + \Sigma_{t-1}^{-1})^{-1}[A^T_t R_t^{-1}(x_t - B_tu_t) + \Sigma_{t-1}^{-1} \mu_{t-1}]\\
@@ -472,5 +469,4 @@ plt.show()
 ```
 
 {{< image classes="fancybox fig-100" src="kf_example.png" thumbnail="kf_example.png"  title="Kalman Filter Example" >}}
-</div>
 {{< disqus >}}
