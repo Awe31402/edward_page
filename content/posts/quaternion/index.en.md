@@ -33,7 +33,7 @@ $$
 \vec{v_1} &= \vec{x} - (\vec{n} \cdot \vec{x})\vec{n} \\
 \vec{v_3} &= \vec{v_1} \times \vec{n} \\
 &= (\vec{x} - (\vec{n} \cdot \vec{x})\vec{n}) \times \vec{n} \\
-&= (\vec x \times \vec n) - (\vec n \cdot \vec x) \mathop{\underline{\vec n \times \vec n}}\limits_0 \\
+&= (\vec x \times \vec n) - (\vec n \cdot \vec x) \mathop {\cancel{{\vec n \times \vec n}}}\limits_0 \\
 &= \vec x \times \vec n
 \end{align}
 $$
@@ -160,14 +160,12 @@ $$
 {{< admonition note >}}
 證明:<br> 
 <div>
-$$
 \begin{align*}
 q q^{-1} &= q\frac{q^*}{|q|^2} \\
 &= \frac{1}{|q|^2} (q_0, \vec q)(q_0, -\vec q) \\
-&= \frac{1}{|q|^2} (q_0^2 + \vec q \cdot \vec q + \mathop {\underline{q_0\vec q - q_0\vec q + \vec q \times \vec q}}\limits_0) \\
+&= \frac{1}{|q|^2} (q_0^2 + \vec q \cdot \vec q + \mathop {\cancel{q_0\vec q - q_0\vec q + \vec q \times \vec q}}\limits_0) \\
 &= \frac {1}{|q|^2} |q|^2 =1
 \end{align*}
-$$
 </div>
 {{< /admonition >}}
 
