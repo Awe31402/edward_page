@@ -56,8 +56,7 @@ bel(x_t) = \eta p(z_t|x_t)\overline {bel(x_t)}
 $$
 </div>
 
-{{< admonition note >}}
-conclusion:<br>
+{{< admonition note "conclusions" >}}
  - Bayes filter is a framework for state estimation
  - The dynamics of the robot and its environment are characterized in the form of two probabilistic laws:
      1. state transition distribution

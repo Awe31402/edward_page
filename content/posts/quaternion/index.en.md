@@ -51,8 +51,7 @@ $$
 $$
 </div>
 
-{{< admonition note >}}
-羅德里格旋轉公式:<br>
+{{< admonition note "羅德里格旋轉公式" >}}
 $\vec x' = (1-\cos\psi)(\vec{n} \cdot \vec{x})\vec{n} + \cos \psi \vec x + \sin \psi ( \vec n \times  \vec x)$
 {{< /admonition >}}
 
@@ -113,8 +112,7 @@ $$
 $$
 </div>
 
-{{< admonition note >}}
-單位四元數:<br>
+{{< admonition note "單位四元數" >}}
 若四元數 $q$ 滿足  $|q|=1$ ，則 $q$ 為單位四元數
 {{< /admonition >}}
 
@@ -157,8 +155,7 @@ pq =& (p_0 + p_1i + p_2j + p_3k)(q_0 + q_1i + q_2j + q_3k)\\
 $$
 </div>
 
-{{< admonition note >}}
-證明:<br> 
+{{< admonition note "證明" >}}
 <div>
 \begin{align*}
 q q^{-1} &= q\frac{q^*}{|q|^2} \\
@@ -200,8 +197,7 @@ L_q(v) &= qvq^{-1} = qvq^* \\
 $$
 </div>
 
-{{< admonition note >}}
-證明:<br>
+{{< admonition note "證明" >}}
 <div>
 $$
 \begin{align*}
