@@ -63,8 +63,8 @@ $$
 $$
 \begin{align}
 \dot q(t) &= \lim_{\Delta t \to 0} {\frac{q(t + \Delta t) - q(t)}{\Delta t}}\\
-&=\lim_{\Delta t \to 0}{(-2 sin^2 \frac{||\omega||\Delta t}{4}q(t) +  \hat \omega sin \frac{||\omega||\Delta t}{2}q(t))} \\
-&= \hat \omega  \lim_{\Delta t \to 0}sin \frac{||\omega||\Delta t}{2}q(t) \\
+&=\lim_{\Delta t \to 0}{\frac{1}{\Delta t}(-2 sin^2 \frac{||\omega||\Delta t}{4}q(t) +  \hat \omega sin \frac{||\omega||\Delta t}{2}q(t))} \\
+&= \hat \omega  \lim_{\Delta t \to 0}\frac{1}{\Delta t}sin \frac{||\omega||\Delta t}{2}q(t) \\
 &= \hat \omega \frac{||\omega||}{2}q(t) = \frac{1}{2} \omega(t)q(t)
 \end{align}
 $$
