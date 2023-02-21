@@ -12,7 +12,7 @@ metaAlignment: center
 <a href="mailto:awe31402@gmail.com"> G-Mail</a><br>
 <i class="sidebar-button-icon fab fa-lg fa-line" aria-hidden="true"></i> awe31402<br>
 <i class="sidebar-button-icon fab fa-lg fa-facebook" aria-hidden="true"></i>
-<a href="https://www.facebook.com/awe.wang.16/about"> Facebok</a><br>
+<a href="https://www.facebook.com/awe.wang.16/about"> Facebook</a><br>
 <i class="sidebar-button-icon fab fa-lg fa-github" aria-hidden="true"></i>
 <a href="https://github.com/Awe31402"> GitHub</a><br>
 <i class="sidebar-button-icon fab fa-lg fa-gitlab" aria-hidden="true"></i>
